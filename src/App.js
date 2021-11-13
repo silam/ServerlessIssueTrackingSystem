@@ -8,6 +8,9 @@ function App() {
         <img  className="App-logo" />
         <p>
             <h1>Serverless Issue Tracking System</h1>
+            <h2>Author: Si Lam</h2>
+            <h2>Follow me: http://serverlessdeveloper.com</h2>
+
         </p>
         
       </header>
