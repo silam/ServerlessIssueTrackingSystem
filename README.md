@@ -3,6 +3,13 @@
 
 
 
+- I use @reduxjs/toolkit react-redux: Predictable state container, run consistently in many environment, client, server, native, easy to test.
+
+
+- Install aws-amplify
+
+npm install -g @aws-amplify/cli
+
 
 # Getting Started with Create React App
 
