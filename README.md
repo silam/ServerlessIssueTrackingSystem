@@ -4,12 +4,26 @@
 
 
 - I use @reduxjs/toolkit react-redux: Predictable state container, run consistently in many environment, client, server, native, easy to test.
-
+- npm install @reduxjs/toolkit
+- npm install react-scripts --save
 
 - Install aws-amplify
 
 npm install -g @aws-amplify/cli
 
+# Controllers: 3 controllers
+  authSlice to authenticate: signin, signout, createuser in reducers
+  userSlice for user login/logout
+  bugSlice for bug controlling: reducers: getBugs, createBug, updateBug, markComplete
+
+
+  bugController to push fake bug data into the bug lists
+
+  Use combineReducer for combining 3 reducers
+  Use configureStore to configure reducer store
+  
+# Models:
+    bugModel: sample details of a bug
 
 # Getting Started with Create React App
 
