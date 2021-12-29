@@ -1,15 +1,17 @@
 .sidebar {
     position: fixed;
-    grid-column: 1;
+    grid-column: 3;
     width: 20%;
     height: 100vh;
-    background-color: var(--prim-color);
+    background-color: #513497;
     text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .sidebar li:hover {
     transition: all 0.3s;
-    background-color: #f17705;
+    background-color: #f177ff;
 }
 .sidebar li{
     padding: 10px;
@@ -27,13 +29,17 @@
     color: white;
 }
 
-.sidebar .logout {
-    position: absolute;
-    bottom: 0;
+/* .sidebar .logout {
+position: absolute;
+    bottom: 10;
     left: 0;
-    width: 100%;
-}
+    width: 30%;
+} */
+.sidebar .logout {
+    width: 30%;
+    height: 5%;
 
+}
 .sidebar .brand {
     font-size: 2.2rem;
 }

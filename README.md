@@ -6,6 +6,7 @@
 - I use @reduxjs/toolkit react-redux: Predictable state container, run consistently in many environment, client, server, native, easy to test.
 - npm install @reduxjs/toolkit
 - npm install react-scripts --save
+- npm install react-router-dom
 
 - Install aws-amplify
 
