@@ -21,7 +21,7 @@ export function retrieveBugs() {
     data.push(new bugModel({
 
         id: 12346,
-        name: "Need to install aws amplify for GraphQL for bug",
+        name: "Install aws amplify for GraphQL",
         steps: "Setup AWS Amplify first",
         details: "AWS Amplify for interacting with GraphQL",
         version: "1.0",

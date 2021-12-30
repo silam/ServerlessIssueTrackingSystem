@@ -7,7 +7,7 @@
     min-height: 200px;
 }
 
-.bag-card :hover {
+.bug-card:hover {
     transition : all 0.3s;
-    transform: scal(1.05);
+    transform: scale(1.05);
 }

@@ -29,5 +29,5 @@ button:hover {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    
+    grid-column: 2;
 }
