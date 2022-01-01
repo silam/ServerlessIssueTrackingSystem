@@ -1,6 +1,6 @@
 import React from "react";
 import './bugCard.css';
-import PriorityController from '../../Controllers/priorityController';
+import PriorityController from '../../../Controllers/priorityController';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default(props) => {
